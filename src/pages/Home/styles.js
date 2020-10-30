@@ -7,7 +7,9 @@ const centeredStyleObj = {
 };
 
 export default makeStyles({
-
+    page:{
+        backgroundColor:"grey"
+    },
     container:{
         height:'100vh',
         flexDirection: 'column',
@@ -21,9 +23,10 @@ export default makeStyles({
         ...centeredStyleObj
     },
     title: {
-        fontSize: '4rem'
+        fontSize: '2rem'
     },
     titleGridContainer: {
+        padding: '1rem',
         ...centeredStyleObj
     },
     textFieldSearch: {

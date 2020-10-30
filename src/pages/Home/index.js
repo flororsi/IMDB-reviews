@@ -20,12 +20,12 @@ export default ({history}) => {
 	}
 
 	return (
-		<div>
+		<div className={classes.page}>
 			<Container className={classes.container}>
 				<Card className= {classes.cardContainer}>
 					<Grid className={classes.titleGridContainer}>
 					<Grid>
-						<Typography className={classes.title}> Bienvenido!</Typography>
+						<Typography className={classes.title}> Ingrese el nombre de una película:</Typography>
 					</Grid>
 					</Grid>
 					<TextField 
